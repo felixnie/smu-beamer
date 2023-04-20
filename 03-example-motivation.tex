@@ -7,18 +7,18 @@
 \begin{frame}
     \frametitle{Title}
     \begin{center}
-        \textbf{To use this template, just edit and add slides!} \newline
+        \textbf{To use this template, you can copy and just edit/add slides!} \newline
     \end{center}
 
-    There are 3 color themes prepared for you under \textbf{Headline and Central Footer} section. \newline
-
-    Check the color design of your school when customizing the theme: \newline
+    All of the color customization occurs in the "SELECT THEME \& COLORS" section of the code. 
+    There are 3 themes at \textbf{Headline and Central Footer} prepared for you. 
+    Check out color design of your school to customize the theme:\newline
 
     \begin{center}
         \href{https://www.smu.edu.sg/about/university-brand-identity}{https://www.smu.edu.sg/about/university-brand-identity} \newline
     \end{center}
 
-    The remainder of these slides serves as an example of the features you can use: footnotes, citations, columns, mini pages, bullets, links, code, maths, etc.
+    The remainder of these slides serve as an example to show all the features you can use: footnotes, citations, bullets, buttons, sections, etc.
 
     \begin{center}
         {\Huge\calligra Enjoy!}
@@ -27,10 +27,10 @@
 
 %------------------------------------------------
 \begin{frame}
-    \frametitle{Intra-frame Footnotes and Citations I}
+    \frametitle{Intra-frame Footnotes and Citations - Case I}
     
-    Citation in Beamer works slightly differently from conventional cites as Beamer rewrites its footnote and citation functions. 
-    A common issue is the duplication of footnotes in a frame when using \texttt{footcite}. \newline
+    Citations in beamer are slightly different with conventional cites as beamer rewrites its footnote and citation functions. 
+    A common issue is the duplication of footnotes in a frame when using \textbf{footcite}. \newline
 
     This paper \footcite{Harshman1970}, that paper \footcite{Hitchcock1927}, and another paper \footcite{Carroll1970}. \newline
 
@@ -39,22 +39,22 @@
 
 %------------------------------------------------
 \begin{frame}
-    \frametitle{Inter-frame Footnotes and Citations I}
+    \frametitle{Inter-frame Footnotes and Citations - Case I}
 
-    Another issue with \texttt{footcite} is the unwanted continuation of the footnote index. \newline
+    Another issue with \textbf{footcite} is the irritating continuation of footnote index. \newline
 
     This paper \footcite{Harshman1970}, that paper \footcite{Hitchcock1927}, and another paper \footcite{Carroll1970}. \newline
 
     And this paper \footcite{Harshman1970}, that paper \footcite{Hitchcock1927}, and another paper \footcite{Carroll1970} again. \newline
 
+    This template provides a workaround for these issues.
 \end{frame}
 
 %------------------------------------------------
 \begin{frame}
-    \frametitle{Intra-frame Footnotes and Citations II}
+    \frametitle{Intra-frame Footnotes and Citations - Case II}
     
-    This template provides a workaround for these issues. 
-    Let's use the customized command \texttt{firstcite} when citing a reference in a frame for the first time, and \texttt{secondcite} for the following citations. \newline
+    Let's use customized function \textbf{firstcite} when citing a reference in a frame for the first time, and use \textbf{secondcite} for the following citations. \newline
 
     This paper \firstcite{Harshman1970}, that paper \firstcite{Hitchcock1927}, and another paper \firstcite{Carroll1970}. \newline
 
@@ -63,38 +63,38 @@
 
 %------------------------------------------------
 \begin{frame}
-    \frametitle{Inter-frame Footnotes and Citations II}
+    \frametitle{Inter-frame Footnotes and Citations - Case II}
 
-    This workaround works for the inter-frame scenario as well. \newline
+    This workaround also works like a charm for the inter-frame cases. \newline
 
-    This paper\firstcite{Harshman1970}, that paper \firstcite{Hitchcock1927}, and another paper \firstcite{Carroll1970}. \newline
+    This paper \firstcite{Harshman1970}, that paper \firstcite{Hitchcock1927}, and another paper \firstcite{Carroll1970}. \newline
 
-    And this paper\secondcite{Harshman1970}, that paper \secondcite{Hitchcock1927}, and another paper \secondcite{Carroll1970} again. 
+    And this paper \secondcite{Harshman1970}, that paper \secondcite{Hitchcock1927}, and another paper \secondcite{Carroll1970} again. 
 \end{frame}
 
 %------------------------------------------------
 \begin{frame}
-    \frametitle{Columns}
-    \framesubtitle{And Graphics}
+    \frametitle{Another Title}
+    \framesubtitle{and a subtitle!}
 
-    Check this slide to see how columns made the formatting look nice.
+    Look at the code of this slide to see how columns made this formatting look nice.
 
     \begin{columns}[t] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
         \begin{column}{0.5\textwidth} % Right column width
-            % To add an image
+            % To add an image %
             \begin{figure}[h!]
                 \centering
-                % \caption{Hawkins et al, 2015}
-                \includegraphics[angle=0, width=4.5cm]{link.png}
-                \label{Figure 1}
+                %\caption{Hawkins et al, 2015}
+                \includegraphics[angle=0, width=4.5cm]{hokie.png}
+                %\label{Figure 1}
             \end{figure}
         \end{column}
         \begin{column}{0.5\textwidth} % Left column width
             \begin{figure}[h!]
                 \centering
-                % \caption{Hawkins et al, 2015}
-                \includegraphics[angle=0, width=4.5cm]{link.png}
-                \label{Figure 2}
+                %\caption{Hawkins et al, 2015}
+                \includegraphics[angle=0, width=4.5cm]{hokie.png}
+                %\label{Figure 1}
             \end{figure}
         \end{column}
     \end{columns}
@@ -102,7 +102,7 @@
 
 %------------------------------------------------
 \begin{frame}
-    \frametitle{Bullets}
+    \frametitle{Yet another title}
     You can use bullets too: \newline
     \begin{itemize}
         \item Like this one \newline
@@ -112,8 +112,8 @@
 
 %------------------------------------------------
 \begin{frame}
-    \label{Test} % For the link button for the Appendix slide
-    \frametitle{Sub-bullets and Links}
+    \label{Test} %For the link button for the Appendix slide
+    \frametitle{A title}
 
     \begin{itemize}
         \item You can also nest sub-bullets
